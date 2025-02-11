@@ -1,0 +1,1121 @@
+/* bismillahirrahmanirrahim */
+
+body {
+	padding: 0;
+	margin: 0;
+}
+
+
+
+progress {
+	width: 400px;
+	height: 100px;
+	
+}
+
+
+
+progress::-webkit-progress-value {
+	background: limegreen;
+	margin-top: 10px;
+	height: 60px;
+}
+
+progress::-webkit-progress-bar {
+	background: #fff;
+}
+
+.wrapper {
+	display: none;
+	max-width: 800px;
+}
+
+.div {
+	border: 6px black solid;
+	width: 180px;
+}
+
+.elem {
+	height: 100px;
+	width: 180px;
+	cursor: pointer;
+}
+
+.bapesh {
+	border: 6px black solid;
+	position: absolute;
+	top: 504px;
+	left: 1153px;
+}
+
+.bozor {
+	position: absolute;
+	top: 500px;
+	left: 967px;
+	border-left: 3px black solid;
+	border-right: 3px black solid;
+}
+
+.etazh {
+	position: absolute;
+	top: 500px;
+	left: 781px;
+	border-right: 3px black solid;
+	border-left: 3px black solid;
+}
+
+.shtraf {
+	position: absolute;
+	top: 500px;
+	left: 595px;
+	border-right: 3px black solid;
+	border-left: 3px black solid;
+}
+
+.rahimi {
+	position: absolute;
+	top: 500px;
+	left: 409px;
+	border-right: 3px black solid;
+	border-left: 3px black solid;
+}
+
+.tuhfa {
+	position: absolute;
+	top: 500px;
+	left: 223px;
+	border-right: 3px black solid;
+	border-left: 3px black solid;
+}
+
+.turma {
+	position: absolute;
+	top: 500px;
+	left: 14px;
+	width: 200px;
+	border-right: 3px black solid;
+}
+
+
+.police {
+	position: absolute;
+	top: 390px;
+	left: 20px;	
+}
+
+.nimi_pul {
+	position: absolute;
+	top: 280px;
+	left: 20px;
+}
+
+.bolnisa {
+	position: absolute;
+	top: 176px;
+	left: 20px;
+	height: 98px;	
+}
+
+#bol_img {
+	height: 90px;
+}
+
+.bankrot {
+	position: absolute;
+	top: 90px;
+	left: 20px;
+	height: 80px;	
+}
+
+#bankrot {
+	height: 80px;
+}
+
+.div_lev {
+	border: 6px black solid;
+	width: 180px;
+}
+
+.bomba {
+	height: 80px;
+	position: absolute;
+	top: 4px;
+	left: 20px;
+}
+
+#bomba {
+	height: 80px;
+}
+
+.etazh_2 {
+	position: absolute;
+	top: 4px;
+	left: 209px;
+	border-right: 3px black solid;
+	border-left: 3px black solid;
+	width: 165px;
+}
+
+#etazh2_css {
+	width: 160px;
+}
+
+.avtomat {
+	position: absolute;
+	top: 4px;
+	left: 380px;
+	border-left: 3px black solid;
+	border-right: 3px black solid;	
+}
+
+.bomba_2 {
+	position: absolute;
+	top: 4px;
+	left: 566px;
+	width: 168px;
+	border-right: 3px black solid;
+	border-left: 3px black solid;	
+}
+
+#sipar_css {
+	width: 168px;
+}
+
+.mersedes {
+	position: absolute;
+	top: 4px;
+	left: 740px;
+	border-right: 3px black solid;
+	border-left: 3px black solid;	
+	width: 169px;
+}
+
+#mersedes {
+	width: 169px;
+}
+
+.lotoreya {
+	position: absolute;
+	top: 4px;
+	left: 915px;
+	width: 130px;
+	border-right: 3px black solid;
+	border-left: 3px black solid;	
+}
+
+#lotoreya {
+	width: 130px;
+}
+
+.najot {
+	position: absolute;
+	top: 4px;
+	left: 1050px;
+	width: 140px;
+	border-right: 3px black solid;
+	border-left: 3px black solid;	
+}
+
+#najot {
+	width: 140px;
+}
+
+.bank {
+	position: absolute;
+	top: 4px;
+	left: 1196px;
+	width: 140px;
+	border-right: 3px black solid;
+	border-left: 3px black solid;	
+}
+
+#bank {
+	width: 140px;
+}
+
+.two_x {
+	position: absolute;
+	top: 120px;
+	left: 1153px;
+	height: 90px;
+	border-top: 3px black solid;
+	border-bottom: 3px black solid;
+}
+
+#duzd_css {
+	height: 90px;
+}
+
+.bashkun {
+	position: absolute;
+	top: 216px;
+	left: 1153px;
+	height: 90px;
+	border-top: 3px black solid;
+	border-bottom: 3px black solid;
+}
+
+#bash_css {
+	height: 90px;
+}
+
+.restoran {
+	position: absolute;
+	top: 312px;
+	left: 1153px;
+	height: 90px;
+	border-top: 3px black solid;
+	border-bottom: 3px black solid;
+}
+
+#resto_css {
+	height: 90px;
+}
+
+.xona {
+	position: absolute;
+	top: 408px;
+	left: 1153px;
+	height: 90px;
+	border-top: 3px black solid;
+	border-bottom: 3px black solid;	
+}
+
+#xona_css {
+	height: 90px;
+}
+
+#demo {
+	font-size: 45px;
+	color: red;
+	display: block;
+	position: absolute;
+	top: 380px;
+	left: 1010px;
+	display: none;
+}
+
+#xod_kun {
+	font-size: 28px;
+	padding: 15px;
+	color: royalblue;
+	background: radial-gradient(navajowhite, skyblue);
+	border-radius: 35px;
+	position: absolute;
+	top: 410px;
+	left: 850px;
+	cursor: pointer;
+	box-shadow: 3px 3px 20px skyblue;
+
+}
+
+#turn {
+	font-size: 37px;
+	color: midnightblue;
+	position: absolute;
+	top: 415px;
+	left: 220px;
+	font-style: italic;
+	font-weight: bold;	
+}
+
+.player_name1 {
+	font-size: 30px;
+	font-family: sans-serif;
+	color: red;
+	position: absolute;
+	top: 130px;
+	left: 280px;
+}
+
+.player_name2 {
+	font-size: 30px;
+	font-family: sans-serif;
+	color: #2b60f5;
+	position: absolute;
+	top: 130px;
+	left: 930px;
+}
+
+.player_name3 {
+	font-size: 30px;
+	font-family: sans-serif;
+	color: #62ff00;
+	position: absolute;
+	top: 130px;
+	left: 570px;
+}
+
+.player_name1 {
+	border-right: 2px red dashed;
+	padding-right: 60px;
+}
+
+.player_name2 {
+	border-right: 2px blue dashed;
+	padding-right: 60px;
+}
+
+.player_name3 {
+	border-right: 2px green dashed;
+	padding-right: 60px;
+}
+
+.money1 {
+	font-size: 32px;
+	color: goldenrod;
+	position: absolute;
+	top: 180px;
+	left: 280px;
+}
+
+.money2 {
+	font-size: 32px;
+	color: goldenrod;
+	position: absolute;
+	top: 180px;
+	left: 540px;
+}
+
+.money3 {
+	font-size: 32px;
+	color: goldenrod;
+	position: absolute;
+	top: 180px;
+	left: 900px;
+}
+
+.dollar1 {
+	font-size: 35px;
+	color: goldenrod;
+	position: absolute;
+	top: 180px;
+	left: 370px;
+}
+
+.dollar2 {
+	font-size: 35px;
+	color: goldenrod;
+	position: absolute;
+	top: 180px;
+	left: 640px;
+}
+
+.dollar3 {
+	font-size: 35px;
+	color: goldenrod;
+	position: absolute;
+	top: 180px;
+	left: 1000px;
+}
+
+.hp1 {
+	color: hotpink;
+	font-size: 32px;
+	position: absolute;
+	top: 220px;
+	left: 280px;
+}
+
+.hp2 {
+	color: hotpink;
+	font-size: 32px;
+	position: absolute;
+	top: 220px;
+	left: 570px;
+}
+
+.hp3 {
+	color: hotpink;
+	font-size: 32px;
+	position: absolute;
+	top: 220px;
+	left: 930px;
+}
+
+#percent1 {
+	position: absolute;
+	top: 220px;
+	left: 340px;
+	font-size: 32px;
+	color: hotpink;
+}
+
+#percent2 {
+	position: absolute;
+	top: 220px;
+	left: 990px;
+	font-size: 32px;
+	color: hotpink;
+}
+
+#percent3 {
+	position: absolute;
+	top: 220px;
+	left: 630px;
+	font-size: 32px;
+	color: hotpink;
+}
+
+.karz {
+	font-size: 27px;
+	color: darkred;
+}
+
+.karz1 {
+	position: absolute;
+	top: 260px;
+	left: 270px;
+}
+
+.karz2 {
+	position: absolute;
+	top: 260px;
+	left: 550px;
+}
+
+.karz3 {
+	position: absolute;
+	top: 260px;
+	left: 920px;
+}
+
+#najot_pro1 {
+	position: absolute;
+	top: 290px;
+	left: 300px;
+	width: 100px;
+}
+
+#najot_pro2 {
+	position: absolute;
+	top: 290px;
+	left: 570px;
+	width: 100px;
+}
+
+#najot_pro3 {
+	position: absolute;
+	top: 290px;
+	left: 930px;
+	width: 100px;
+}
+
+#turma_time1 {
+	position: absolute;
+	top: 340px;
+	left: 290px;
+	font-size: 28px;
+	background: navajowhite;
+	cursor: wait;
+	display: none;
+}
+
+#turma_time2 {
+	position: absolute;
+	top: 340px;
+	left: 570px;
+	font-size: 28px;
+	background: navajowhite;
+	cursor: wait;
+	display: none;
+}
+
+#turma_time3 {
+	position: absolute;
+	top: 340px;
+	left: 930px;
+	font-size: 28px;
+	background: navajowhite;
+	cursor: wait;
+	display: none;
+}
+
+.second_part {
+	position: absolute;
+	top: 650px;
+}
+
+.flex {
+	display: flex;
+	font-size: 25px;
+	color: midnightblue;
+}
+
+.profit {
+	color: lightseagreen;
+	font-size: 18px;
+	border: 1.5px red groove;
+}
+
+.profit_1 {
+	position: absolute;
+	top: 380px;
+	left: 300px;
+}
+
+.profit_2 {
+	position: absolute;
+	top: 380px;
+	left: 600px;
+}
+
+.profit_3 {
+	position: absolute;
+	top: 380px;
+	left: 960px;
+}
+
+#play {
+	font-size: 30px;
+	background: conic-gradient(#6889c5, pink);
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	height: 100px;
+	border-radius: 50px;
+	width: 160px;
+	color: #fff;
+	margin-left: 37%;
+	box-shadow: 5px 7px 5px grey;
+}
+
+.input {
+	outline-color: skyblue;
+	font-size: 20px;
+	margin-right: 30px;
+	height: 30px;
+	margin-top: 50px;
+	border: none;
+	border-bottom: 2px palegreen groove;
+}
+
+.input::placeholder {
+	color: #6889c5;
+	font-size: 30px;
+}
+
+h2 {
+	margin-bottom: -15px;
+	margin-left: 250px;
+}
+
+.name_1 {
+	color: red;
+}
+
+.name_2 {
+	color: blue;
+}
+
+.name_3 {
+	color: #2bf52b;
+}
+
+.button_part {
+	display: flex;
+}
+
+#manage {
+	font-size: 32px;
+	background: linear-gradient(gold, red);
+	padding: 15px;
+	border-radius: 30px;
+	outline-color: deepskyblue;
+	cursor: pointer;
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+
+#play {
+	cursor: pointer;
+} 
+
+#moshin {
+	font-size: 20px;
+	background: conic-gradient(navajowhite, skyblue);
+	border-radius: 500px;
+	outline: none;
+	cursor: pointer;
+	margin-left: 870px;
+	display: none;
+}
+
+#play:hover {
+	font-size: 29px;
+}
+
+#manage:hover {
+	font-size: 31px;
+}
+
+#moshin:hover {
+	font-size: 19px;
+}
+
+#xod_kun:hover {
+	font-size: 30px;
+}
+
+.choice {
+	display: none;
+	background: skyblue;
+}
+
+.flex {
+	margin-bottom: 20px;
+}
+
+.enter {
+	position: absolute;
+	top: 170px;
+	left: 240px;
+}
+
+.property {
+	margin-top: 30px;
+}
+
+.alert_rent {
+	width: 240px;
+	background: linear-gradient(grey, whitesmoke);
+	border: 2px orangered solid;
+	padding: 15px;
+	font-size: 22px;
+	border-radius: 20px;
+	position: absolute;
+	left: 680px;
+	top: 330px;
+	display: none;
+}
+
+.turma_rent {
+	width: 240px;
+	background: linear-gradient(grey, whitesmoke);
+	border: 2px orangered solid;
+	padding: 15px;
+	font-size: 22px;
+	border-radius: 20px;
+	position: absolute;
+	left: 680px;
+	top: 330px;
+	display: none;
+}
+
+#ok_turma {
+	display: block;
+	background: goldenrod;
+	color: #fff;
+	cursor: pointer;
+	font-size: 20px;
+}
+
+.buttons {
+	display: flex;
+}
+
+#ok {
+	display: block;
+	background: goldenrod;
+	color: #fff;
+	cursor: pointer;
+	font-size: 20px;
+}
+
+#no {
+	display: block;
+	background: goldenrod;
+	color: #fff;
+	cursor: pointer;
+	font-size: 20px;
+}
+
+#amn {
+	background: linear-gradient(limegreen, yellow);
+	font-size: 23px;
+	padding: 15px;
+	position: absolute;
+	top: 10px;
+	left: 720px;
+	color: red;
+	display: none;
+	cursor: pointer;
+}
+
+#ok_amn , #te_id , #sipar_pro_id {
+	background: goldenrod;
+	color: #fff;
+	cursor: pointer;
+	font-size: 20px;
+	flex: 1;
+	border-radius: 20px;
+}
+
+.turma_amn , .yes_te , .sipar_pro {
+	width: 240px;
+	background: linear-gradient(grey, whitesmoke);
+	border: 2px orangered solid;
+	padding: 15px;
+	font-size: 22px;
+	border-radius: 20px;
+	position: absolute;
+	left: 680px;
+	top: 330px;
+	display: none;
+}
+
+#najot_pro1 {
+	cursor: help;
+}
+
+#najot_pro2 {
+	cursor: help;
+}
+
+#najot_pro3 {
+	cursor: help;
+}
+
+#hp {
+	position: absolute;
+	left: 250px;
+	font-size: 32px;
+	border-bottom-right-radius: 30px;
+	border-bottom-left-radius: 30px;
+	background: radial-gradient(lightseagreen, hotpink);
+	color: #fff;
+	padding: 15px;
+	cursor: cell;
+}
+
+.hp_end , .karza_te , .bomba_strike , .hp_end_bomba {
+	background: red;
+	color: #fff;
+	padding: 10px;
+	width: 30%;
+	font-size: 30px;
+	border-radius: 20px;
+	position: absolute;
+	top: 310px;
+	left: 550px;
+	display: none;
+}
+
+.karza_te {
+	background: green;
+}
+
+.bomba_strike {
+	background: deepskyblue;
+}
+
+.alert_rent {
+	background: red;
+	color: #fff;
+	padding: 10px;
+	width: 30%;
+	font-size: 30px;
+	border-radius: 20px;
+	position: absolute;
+	top: 310px;
+	left: 550px;
+	display: none;	
+}
+
+.turma_amn {
+	background: red;
+	color: #fff;
+	padding: 10px;
+	width: 30%;
+	font-size: 30px;
+	border-radius: 20px;
+	position: absolute;
+	top: 310px;
+	left: 550px;
+	display: none;
+}
+
+.turma_rent {
+	background: red;
+	color: #fff;
+	padding: 10px;
+	width: 30%;
+	font-size: 30px;
+	border-radius: 20px;
+	position: absolute;
+	top: 310px;
+	left: 550px;
+	display: none;
+}
+
+#yes_lech , #no_lech , #yes_lechenie , #no_lechenie , #yes_te , #no_te , #yes_select , #yes_bomba , #yes_hp_bomba , #no_hp_bomba, #yes_lechenie {
+	background: navajowhite;
+	color: royalblue;
+	font-size: 22px;
+	font-family: serif;
+	border-radius: 30px;
+	margin-right: 20px;
+	padding: 10px;
+	cursor: pointer;
+}
+
+ #yes_select , #yes_bomba , #yes_hp_bomba {
+ 	margin-left: 80px;
+ }
+
+#karz_select , #bomba_select {
+	background: rebeccapurple;
+	color: #fff;
+	font-size: 30px;
+	margin-bottom: 10px;
+	border-radius: 20px;
+	box-shadow: 4px 4px 5px #fff;
+}
+
+#yes_lech , #yes_lechenie {
+	margin-left: 10px;
+	cursor: cell;
+}
+
+.hp_end_txt , .karza_te_txt , .bomba_txt , .hp_end_bomba_txt {
+	text-align: center;
+}
+
+.flex > input {
+	font-size: 20px;
+	background: rebeccapurple;
+	color: #fff;
+}
+
+.loose {
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(#184c61, lightblue);
+	font-size: 100px;
+	color: red;
+	position: absolute;
+	display: none;
+}
+
+.win {
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(#dae524, #8e4ca7);
+	font-size: 100px;
+	color: red;
+	position: absolute;
+	display: none;
+}
+
+#icon {
+	width: 80px;
+	height: 80px;
+	position: absolute;
+	top: -130px;
+	left: -200px;
+}
+
+.loose_txt {
+	position: absolute;
+	top: -50px;
+	left: 310px;
+	text-align: center;
+	font-style: oblique;
+	font-family: monospace;
+
+}
+
+.win_txt {
+	position: relative;
+	left: 10px;
+}
+
+.name_loose {
+	font-size: 150px;
+	color: #07f7b8;
+	font-family: monospace;
+}
+
+.name_win {
+	font-size: 150px;
+	color: #07f7b8;
+	font-family: monospace;
+}
+
+#cup {
+	position: absolute;
+	left: 570px;
+	border: 0.5px royalblue solid;
+	border-radius: 80px;
+}
+
+#karz_btn {
+	background: linear-gradient(#607d8b, #ead73c);
+    color: #a7f2ff;
+	position: absolute;
+	left: 480px;
+	top: -20px;
+	font-size: 32px;
+	border-radius: 23px;
+	padding: 10px;
+	cursor: pointer;
+	transition: 2.5s;
+}
+
+#karz_btn:focus {
+	background: linear-gradient(royalblue, lightyellow);
+	color: black;
+}
+
+#bla {
+	position: fixed;
+}
+
+#karz_select , #yes_select {
+	display: none;
+}
+
+#exit {
+    background: linear-gradient(#d4c523, #e28150);
+	color: #fff;
+	font-size: 26px;
+	padding: 10px;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	position: absolute;
+	top: 450px;
+	left: 540px;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+#strike {
+	position: absolute;
+	left: 940px;
+	top: 20px;
+	background: red;
+	cursor: crosshair;
+	border-radius: 20px;
+	display: none;
+}
+
+.strike_img {
+	width: 100px;
+	border-radius: 70px;
+}
+
+.p {
+	color: palevioletred;
+	font-weight: bold;
+	font-size: 40px;
+}
+
+.police_need {
+	border-top: 3px black solid;
+	border-bottom: 3px black solid;	
+}
+
+.nimi_need {
+	border-top: 3px black solid;
+	border-bottom: 3px black solid;	
+}
+
+.bolnisa_need {
+	border-top: 3px black solid;
+	border-bottom: 3px black solid;	
+}
+
+.bankrot_need {
+	border-top: 3px black solid;
+	border-bottom: 3px black solid;	
+}
+
+.bomba_need {
+	border-right: 3px black solid;
+	border-bottom: 3px black solid;
+	border-top: 3px black solid;	
+}
+
+.bapesh_need {
+	border-left: 3px black solid;
+	border-top: 3px black solid;
+}
+
+
+.sipar_pro {
+	color: #001fcc;
+}
+
+.depend1 {
+	position: absolute;
+	top: 216px;
+	left: 1153px;
+	height: 96px;
+	transition: 2s;
+	transform: scale(1.2);
+	display: none;
+}
+
+.depend2 {
+	position: absolute;
+	top: 4px;
+	left: 380px;
+	width: 186px;
+	height: 116px;
+	transition: 2s;
+	transform: scale(1.2);
+	display: none;
+}
+
+#bend {
+	font-size: 40px;
+	position: absolute;
+	left: 1000px;
+	padding: 15px;
+	color: limegreen;
+	background: linear-gradient(black, red);
+	border-radius: 50px;
+	display: none;
+	cursor: pointer;
+}
+
+#najot_tur {
+	position: absolute;
+	top: 520px;
+	left: 10px;
+	height: 100px;
+	display: none;
+}
+
+
+.bend {
+	font-size: 50px;
+	border: 4px red solid;
+	color: white;
+	background: green;
+	position: absolute;
+	top: 200px;
+	left: 500px;
+	padding: 20px;
+	border-radius: 20px;
+	display: none;
+}
+
+#bend_select {
+	font-size: 40px;
+}
+
+#yes_bend {
+	font-size: 30px;
+}
+
+.money_end {
+	display: none;
+}
+
+#najot_tur {
+	height: 240px;
+}
+
+

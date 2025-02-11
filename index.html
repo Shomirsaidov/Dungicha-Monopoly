@@ -1,0 +1,413 @@
+<!--Bismillahirrahmanirrahim-->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>DUNGICHA Game (Abubakr Studios)</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+	<div class="wrapper">
+		<div class="cub">
+			<button id="xod_kun">ХОД</button>
+			<p id="demo">5</p>
+		</div>
+
+		
+		<p id="turn">Xodi: Abubakr</p>
+		<div class="player_info" id="info1">
+			<span class="player_name1">
+				<u class="name_1"><span class="name_1">Abubakr</span></u>
+			</span>
+			<span class="money1" title="PUL">1500</span><span class="dollar1">$</span>
+			<span class="hp1" title="GON">100</span><span id="percent1">%</span>
+		</div>
+		<div class="player_info" id="info3">
+			<span class="player_name3">
+				<u class="name_3"><span class="name_3">Yosninjon</span></u>
+			</span>
+			<span class="money3" title="PUL">1500</span><span class="dollar3">$</span>
+			<span class="hp3" title="GON">100</span><span id="percent2">%</span>
+		</div>
+		<div class="player_info" id="info2">
+			<span class="player_name2">
+				<u class="name_2"><span class="name_2">Aliakbar</span></u>
+			</span>
+			<span class="money2" title="PUL">1500</span><span class="dollar2">$</span>
+			<span class="hp2" title="GON">100</span><span id="percent3">%</span>
+		</div>
+		<div class="karz1 karz">
+			<span title="karz" class="karz_obor1"></span>
+		</div>
+		<div class="karz3 karz">
+			<span title="karz" class="karz_obor3"></span>
+		</div>
+		<div class="karz2 karz">
+			<span title="karz" class="karz_obor2"></span>
+		</div>
+		<img src="najot.png" id="najot_pro1">
+		<img src="najot.png" id="najot_pro3">
+		<img src="najot.png" id="najot_pro2">
+
+		<span id="turma_time2">0х турма</span>
+		<span id="turma_time3">0х турма</span>
+		<span id="turma_time1">0х турма</span>
+
+		<span class="profit_1 profit" title="foida">0 $</span>
+		<span class="profit_2 profit" title="foida">0 $</span>
+		<span class="profit_3 profit" title="foida">0 $</span>
+
+		<button id="exit">EXIT</button>
+
+	<main class="main_field">
+		<div class="wrapper_2">
+			<div class="bapesh div pro bapesh_need">	
+				<img src="ba_pesh.png" class="elem">
+			</div>	
+			<div class="bozor div pro">
+				<img src="bozor.png" class="elem">
+			</div>
+			<div class="etazh div pro">
+				<img src="etazh.png" class="elem">
+			</div>
+			<div class="shtraf div pro">
+				<img src="shtraf.png" class="elem">
+			</div>
+			<div class="rahimi div pro">
+				<img src="rahimi.png" class="elem">
+			</div>
+			<div class="tuhfa div pro">
+				<img src="tuhfa.png" class="elem">
+			</div>
+			<div class="turma div pro">
+				<img src="turma.png" class="elem">
+			</div>
+			<div class="police div div_lev pro police_need">
+				<img src="police.png" class="elem">
+			</div>
+			<div class="nimi_pul div div_lev pro nimi_need">
+				<img src="nimi_pul.png" class="elem">
+			</div>
+			<div class="bolnisa div div_lev pro bolnisa_need">
+				<img src="bolnisa.png" class="elem" id="bol_img">
+			</div>
+			<div class="bankrot div div_lev pro bankrot_need">
+				<img src="bankrot.png" class="elem" id="bankrot"> 
+			</div>
+			<div class="bomba div div_lev pro bomba_need">
+				<img src="bomba.png" class="elem" id="bomba">
+			</div>
+			<div class="etazh_2 div pro">
+				<img src="etazh_2.png" class="elem" id="etazh2_css">
+			</div>
+			<div class="avtomat div pro">
+				<img src="avtomat.png" class="elem">
+			</div>
+			<div class="bomba_2 div pro">
+				<img src="bomba_2.png" class="elem" id="sipar_css">
+			</div>
+			<div class="mersedes div pro">
+				<img src="mersedes.png" class="elem" id="mersedes">
+			</div>
+			<div class="lotoreya div pro">
+				<img src="lotoreya.png" class="elem" id="lotoreya">
+			</div>
+			<div class="najot div pro">
+				<img src="najot_pro.png" class="elem" id="najot">
+			</div>
+			<div class="bank div pro">
+				<img src="bank.png" class="elem" id="bank">
+			</div>
+			<div class="two_x div pro">
+				<img src="2x.png" class="elem" id="duzd_css">
+			</div>
+			<div class="bashkun div pro">
+				<img src="bashkun.png" class="elem" id="bash_css">
+			</div>
+			<div class="restoran div pro">
+				<img src="restoran.png" class="elem" id="resto_css">
+			</div>
+			<div class="xona div pro">
+				<img src="xona.png" class="elem" id="xona_css">
+			</div>
+		</div>	
+	</main>
+		<div class="second_part">
+			<div class="button_part">
+				<input type="button" value="Харидан" id="manage">
+				<button id="moshin">Мошинро ба аренда<br> мегирам</button>
+				<input type="button" id="amn" value="1000 $ медихам">
+				<button id="hp">Лечение</button>
+				<button id="karz_btn">Карз мегирам</button>
+				<button id="strike"><img src="strike.png" alt="" class="strike_img"></button>
+
+			</div>	
+			<div class="property">
+				<button id="bend">Штраф кардан</button>
+
+				<div class="flex">
+					<img src="bozor.png">
+					<p class="bozor_">Нарх: 2500 $<br>Фоида: 250 $<br>Аренда: 700 $</p><span>Ини &nbsp; </span> <span class="bozor_pro p"></span>
+				</div>
+				<div class="flex">
+					<img src="etazh.png">	
+					<p class="etazh_">Нарх: 2200 $<br>Фоида: 200 $<br>Аренда: 600 $</p><span>Ини &nbsp; </span> <span class="etazh_pro p"></span>
+				</div>
+				<div class="flex">
+					<img src="rahimi.png">	
+					<p class="rahimi_">Нарх: 1500 $<br>Фоида: 150 $<br>Аренда: 500 $</p><span>Ини &nbsp; </span> <span class="rahimi_pro p"></span>
+				</div>
+				<div class="flex">
+					<img src="police.png">	
+					<p class="police_">Нарх: 3500 $<br>Фоида: 250 $<br></p><span>Ини &nbsp; </span> <span class="police_pro p"></span>
+				</div>
+				<div class="flex">
+					<img src="bolnisa.png">	
+					<p class="bolnisa_">Нарх: 3800 $<br>Фоида: 250 $<br>Лечение: 500 $</p><span>Ини &nbsp; </span>  <span class="bolnisa_pro p"></span>
+				</div>
+				<div class="flex">
+					<img src="etazh_2.png">	
+					<p class="etazh_2_">Нарх: 2500 $<br>Фоида: 200 $<br>Аренда: 700 $</p><span>Ини &nbsp; </span>  <span class="etazh_2_pro p"></span>
+				</div>
+				<div class="flex">
+					<img src="mersedes.png">	
+					<p class="mersedes_">Нарх: 2000 $<br></p><span>Ини &nbsp; </span> <span class="mersedes_pro p"></span>
+				</div>
+				<div class="flex">
+					<img src="bank.png">		
+					<p class="bank_">Фоида: 4000 $<br>Фоида: 300 $<br>Боз 1500 $ пул дорад</p><span>Ини &nbsp; </span> <span class="bank_pro p"></span>
+				</div>
+				<div class="flex">
+					<img src="restoran.png">		
+					<p class="restoran_">Нарх: 1800 $<br>Фоида: 150$<br>Обед: 800 $</p><span>Ини &nbsp; </span> <span class="restoran_pro p"></span>
+				</div>
+				<div class="flex">
+					<img src="xona.png">		
+					<p class="xona_">Нарх: 2000 $<br>Фоида: 200$<br>Аренда: 800 $</p><span>Ини &nbsp; </span> <span class="xona_pro p"></span>
+				</div>	
+			</div>
+		</div>
+	</div>
+
+	<div class="enter">
+		<img src="dungi_ico_new.png" alt="" id="icon">
+		<input type="button" name="" value="PLAY" id="play" style="margin-left: 330px;"><br>
+		<h2>Номи бозингархоро ворид кунед:</h2>
+		<input type="text" name="" placeholder="ном" class="input" maxlength="11" id="player1">
+		<input type="text" name="" placeholder="ном" class="input" maxlength="11" id="player2">
+		<input type="text" name="" placeholder="ном" class="input" maxlength="11" id="player3">
+		<input type="number" style="font-size: 30px;margin-left: 210px; margin-top: 50px; width: 400px; text-align: center;" name="" placeholder="То чанд пул бози мекунед ?" class="input" maxlength="11" id="win_sum">		
+	</div>
+	<div class="choice">
+		<h2>Чои мерафтагиятонро муайян кунед:</h2>
+		<div class="flex">
+			<input type="button"  id="bapeshm" value="Меравам">
+			<img src="ba_pesh.png">
+		</div>
+		<div class="flex">	
+			<input type="button"  id="bozorm" value="Меравам">
+			<img src="bozor.png">
+		</div>
+		<div class="flex">	
+			<input type="button"  id="etazh_mosh" value="Меравам">
+			<img src="etazh.png">
+		</div>
+		<div class="flex">	
+			<input type="button"  id="shtrafm" value="Меравам">
+			<img src="shtraf.png">
+		</div>
+		<div class="flex">	
+			<input type="button"  id="rahimi_mob" value="Меравам">
+			<img src="rahimi.png">
+		</div>
+		<div class="flex">	
+			<input type="button"  id="tuhfam" value="Меравам">
+			<img src="tuhfa.png">
+		</div>
+		<div class="flex">	
+			<input type="button"  id="turmam" value="Меравам">
+			<img src="turma.png">
+		</div>
+		<div class="flex">	
+			<input type="button"  id="policem" value="Меравам">
+			<img src="police.png">
+		</div>
+		<div class="flex">	
+			<input type="button"  id="nimi_pulm" value="Меравам">
+			<img src="nimi_pul.png">
+		</div>
+		<div class="flex">	
+			<input type="button" id="bolnisam" value="Меравам">
+			<img src="bolnisa.png">
+		</div>
+		<div class="flex">	
+			<input type="button"  id="bankrotm" value="Меравам">
+			<img src="bankrot.png">
+		</div>
+		<div class="flex">	
+			<input type="button"  id="bombam" value="Меравам">
+			<img src="bomba.png">
+		</div>
+		<div class="flex">	
+			<input type="button"  id="etazh_2_mosh" value="Меравам">
+			<img src="etazh_2.png">
+		</div>
+		<div class="flex">		
+			<input type="button"  id="avtomatm" value="Меравам">
+			<img src="avtomat.png">
+		</div>
+		<div class="flex">		
+			<input type="button"  id="sipar" value="Меравам">
+			<img src="bomba_2.png">
+		</div>
+		<div class="flex">	
+			<input type="button"  id="lotoreyam" value="Меравам">
+			<img src="lotoreya.png">
+		</div>
+		<div class="flex">		
+			<input type="button"  id="najotm" value="Меравам">
+			<img src="najot.png">
+		</div>
+		<div class="flex">		
+			<input type="button"  id="bankm"  value="Меравам">
+			<img src="bank.png">
+		</div>
+		<div class="flex">		
+			<input type="button"  id="duzd"  value="Меравам">
+			<img src="2x.png">
+		</div>
+		<div class="flex">		
+			<input type="button"  id="bashkunm" value="Меравам">
+			<img src="bashkun.png">
+		</div>
+		<div class="flex">		
+			<input type="button"  id="restoranm" value="Меравам">
+			<img src="restoran.png">
+		</div>
+		<div class="flex">		
+			<input type="button"  id="xonam" value="Меравам">
+			<img src="xona.png">
+		</div>	
+	</div>
+	<div class="alert_rent">
+		<p class="alert_rent_txt">Абу, шумо ба хонаи дигар кас омадед барои хамин шумо бояд 800 $ пули арендаро супоред!</p>
+		<div class="buttons">
+			<input type="button"  id="ok"  value="Майлаш">
+			<input type="button"  id="no"  value="Намедихам">
+		</div>
+	</div>
+	<div class="turma_amn">
+		<p class="turma_amn_txt">Шумо акнун бомба доред , метавонед уро ба ягон кас партоед!</p>
+		<div class="buttons">
+			<input type="button"  id="ok_amn"  value="Ok">
+		</div>
+	</div>
+	<div class="yes_te">
+		<p class="yes_te_txt">Шумо акнун бомба доред , метавонед уро ба ягон кас партоед!</p>
+		<div class="buttons">
+			<input type="button"  id="te_id"  value="Ok">
+		</div>
+	</div>
+
+	<div class="sipar_pro">
+		<p class="sipar_pro_txt">Шумо акнун сипар доред, агар уро истифода баред ба шумо хеч чиз зарар намерасонад.</p>
+		<div class="buttons">
+			<input type="button"  id="sipar_pro_id"  value="Ok">
+		</div>
+	</div>
+
+	<div class="turma_rent">
+		<p class="turma_rent_txt">Абу, шумо ба хонаи дигар кас омадед барои хамин шумо бояд 800 $ пули арендаро супоред!</p>
+		<div class="buttons">
+			<input type="button"  id="ok_turma"  value="Майлаш">
+		</div>
+	</div>
+	<div class="hp_end">
+		<p class="hp_end_txt">Lorem ipsum dolor sit amet.</p>
+		<div class="buttons">
+			<button id="yes_lech">Лечение мекунам</button>
+			<button id="no_lech">НЕ намекунам</button>
+		</div>
+	</div>
+	<div class="hp_end_bomba">
+		<p class="hp_end_bomba_txt">Lorem ipsum dolor sit amet.</p>
+		<div class="buttons">
+			<button id="yes_hp_bomba">Лечение мекунам</button>
+			<button id="no_hp_bomba">НЕ намекунам</button>
+		</div>
+	</div>
+	<div class="money_end">
+		<p class="money_end_txt">Пулатон адо шуд!</p>
+		<div class="buttons">
+			<button id="money_end_karz">Карз мегирам</button>
+			<button id="money_end_nokarz">НЕ намегирам</button>
+		</div>
+	</div>
+	<div class="hp_end lechenie">
+		<p class="hp_end_txt lechenie_txt">Lorem ipsum dolor sit amet.</p>
+		<div class="buttons">
+			<button id="yes_lechenie">Карз гирифта лечение мекунам</button>
+			<button id="no_lechenie">НЕ намекунам</button>
+		</div>
+	</div>
+	<div class="bend">
+		<p class="bend_txt">Выберите игрока:</p>
+		<select name="bend" id="bend_select">
+			<option value="1" id="bend_1"></option>
+			<option value="2" id="bend_2"></option>
+		</select>
+		<div class="buttons">
+			<button id="yes_bend">Штрафовать 1000</button>
+		</div>
+	</div>
+	<div class="karza_te">
+		<p class="karza_te_txt">Lorem ipsum dolor sit amet.</p>
+		<select name="karz" id="karz_select">
+			<option value="500" id="op_500">500</option>
+			<option value="1000" id="op_1000">1000</option>
+			<option value="1500" id="op_1500">1500</option>
+		</select>
+		<div class="buttons">
+			<button id="yes_select">Карз гирифта шавад</button>
+			<button id="yes_te">Карзро медихам</button>
+			<button id="no_te">НЕ намедихам</button>
+		</div>
+	</div>
+	<div class="bomba_strike">
+		<p class="bomba_txt">Бомбаро ба ки мепартоед ?</p>
+		<select name="bomba" id="bomba_select">
+			<option value="1" class="option1"> </option>
+			<option value="2" class="option2"> </option>
+		</select>
+		<div class="buttons">
+			<button id="yes_bomba">Бомба партофта шавад</button>
+		</div>
+	</div>
+
+	<div class="loose"><p class="loose_txt"><span class="name_loose">кимки</span><br><br><span class="win_txt"> шумо аз бози<br> баромадед!</span></p></div>
+
+	<div class="win"><p class="loose_txt win_txt"><img src="cup.png" alt="" id="cup"><br><span class="name_win">кимки</span><br><span class="win_txt"> Табрик , шумо<br> голиби бози шудед! </span></p> </div>
+
+	<div class="load_part" style="display: none;">
+		<progress value="130" max="200"> </progress>
+	</div>
+
+	<audio src="loose.mp3" id=loose_audio></audio>
+	<audio src="win.mp3" id="win_audio"></audio>
+	<audio src="buy.mp3" id="buy_audio"></audio>
+	<audio src="bang.mp3" id="bang_audio"></audio>
+
+	<img src="depend_sipar.png" alt="Защита" class="depend1">
+	<img src="depend_sipar.png" alt="Защита" class="depend2">
+	<img src="najot_turma.png" alt="" id="najot_tur">
+
+	<script type="text/javascript" src="reserve_script.js"></script>
+</body>
+</html>
+
+
+
+
+
