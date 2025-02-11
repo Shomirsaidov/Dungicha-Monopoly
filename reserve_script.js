@@ -2757,7 +2757,7 @@ document.getElementById('play').addEventListener("click" , () => {
 xod_kun.onclick = function() {
 	
 
-	document.documentElement.requestFullscreen();
+	
 	document.querySelector('.turma_amn_txt').style.color = '#fff';
 	
 
