@@ -2733,9 +2733,7 @@ function main3() {
 
 
 document.getElementById('play').addEventListener("click" , () => {
-	document.documentElement.requestFullscreen().catch((e) => {
-		console.log(e);
-	});
+	
 
 
 	document.querySelector('.wrapper').style.display = 'block';
